@@ -10,7 +10,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Architecture
 
-This is a minimal Express.js static file server with a vanilla JS frontend. The backend does no data processing — it only serves files and handles routing.
+**This project is actively being scaled and will grow significantly.** The README outlines an ambitious roadmap including a team builder, battle simulator, PWA support, advanced filtering, and a full backend with user accounts and a database. Keep this growth trajectory in mind when making architectural decisions — prefer patterns that scale and avoid dead-end designs.
+
+This is currently a minimal Express.js static file server with a vanilla JS frontend. The backend does no data processing — it only serves files and handles routing.
 
 ### Backend (`app.js`)
 
